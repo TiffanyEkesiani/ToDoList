@@ -1,29 +1,37 @@
-# 📋 Sistema de Gerenciamento de Tarefas
+# 📂 TO DO LIST - Sistema de Gerenciamento de Tarefas em Java
 
-Este é um sistema simples em Java para gerenciar tarefas pessoais, de estudo e de trabalho. O objetivo é organizar e classificar as tarefas por categoria, permitindo ao usuário cadastrar, visualizar e gerenciar suas atividades com facilidade.
+Este projeto foi desenvolvido como parte do curso *Introdução à Linguagem Java* (Senac Lapa Tito) e representa uma das minhas primeiras aplicações práticas com orientação a objetos.
 
-## 🚀 Funcionalidades
+A proposta era criar um sistema simples, executado via terminal, que organizasse tarefas divididas por categorias: pessoal, estudo e trabalho. Ao longo do desenvolvimento, pude reforçar meu entendimento sobre herança, polimorfismo, classes abstratas e entrada de dados com `Scanner`.
 
-- 📌 Cadastro de tarefas por tipo:
-  - Tarefas pessoais (`Personal`)
-  - Tarefas de estudo (`Study`)
-  - Tarefas de trabalho (`Work`)
-- ✅ Marcar tarefas como concluídas
-- 🔍 Visualizar todas as tarefas ou filtrar por tipo
-- ⌛ Ver status de tarefas (pendente ou concluída)
+---
 
-## 🛠️ Estrutura do Projeto
+## ⚙️ Funcionalidades
+
+- 📝 Cadastro de tarefas por categoria:
+  - Tarefas pessoais
+  - Tarefas de estudo
+  - Tarefas de trabalho
+- ✅ Marcação de tarefas como concluídas
+- 🔍 Visualização de todas as tarefas cadastradas
+- ⌛ Verificação de tarefas em atraso (com base na deadline)
+- 📌 Exibição do status: pendente ou concluída
+
+---
+
+## 🗂️ Estrutura do Projeto
 
 ```
-.
-├── Main.java         # Classe principal com menu interativo
-├── Tarefas.java      # Classe abstrata base para as tarefas
-├── Personal.java     # Subclasse de Tarefas para tarefas pessoais
-├── Study.java        # Subclasse de Tarefas para tarefas de estudo
-├── Work.java         # Subclasse de Tarefas para tarefas de trabalho
+├── Main.java → Classe principal com menu interativo
+├── Tarefas.java → Classe abstrata base para as tarefas
+├── Personal.java → Subclasse para tarefas pessoais
+├── Study.java → Subclasse para tarefas de estudo
+├── Work.java → Subclasse para tarefas de trabalho
 ```
 
-## 💡 Como usar
+---
+
+## ▶️ Como Executar
 
 1. Compile os arquivos:
 
@@ -38,8 +46,9 @@ java Main
 ```
 
 3. Siga as instruções do menu para adicionar ou visualizar tarefas.
+---
 
-## 🧠 Exemplo de uso
+### 🖥️ Exemplo de Execução no Terminal
 
 ```
 ====== MENU DE TAREFAS ======
@@ -49,33 +58,39 @@ java Main
 4 - Listar todas as tarefas
 5 - Marcar tarefa como concluída
 6 - Sair
+
+Escolha uma opção:
+
 ```
+---
 
-## ✅ Requisitos
+### 🛠️ Tecnologias e Conceitos Aplicados
+- Java 8+
 
-- Java 8 ou superior
-- Terminal ou IDE (como IntelliJ, VSCode ou Eclipse)
+- Programação Orientada a Objetos (POO)
 
-## 📌 Observações
+- Classe abstrata, herança e polimorfismo
 
-- O programa é executado em console.
-- As tarefas são armazenadas em memória (não persistem ao fechar o programa).
+- Manipulação de datas com LocalDate
 
+- Estruturas de repetição e condicionais
 
+- Entrada de dados com Scanner
 
-## 👩‍💻 Desenvolvido por:
+- Uso de ArrayList
 
+--- 
 
-### Fernanda Ribeiro
+## ℹ️ Observações
+- O sistema roda totalmente no console.
 
-<a href="https://github.com/f3f3h" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-C71585?style=for-the-badge&logo=github&logoColor=white">
-</a>
-<a href="https://www.linkedin.com/in/f3f3h/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-C71585?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
+- As tarefas são armazenadas apenas em memória (não há persistência de dados).
+
+- Projeto desenvolvido para fins didáticos, com possibilidade de expansão futura.
 
 ---
+
+## 👩‍💻 Desenvolvido por:
 
 ###  Tiffany Ekesiani
 
@@ -87,3 +102,14 @@ java Main
 </a>
 
 </div>
+
+---
+
+### Fernanda Ribeiro
+
+<a href="https://github.com/f3f3h" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-C71585?style=for-the-badge&logo=github&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/in/f3f3h/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-C71585?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
