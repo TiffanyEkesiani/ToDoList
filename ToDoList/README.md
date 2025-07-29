@@ -1,6 +1,6 @@
 # 📂 TO DO LIST - Sistema de Gerenciamento de Tarefas em Java
 
-Este projeto foi desenvolvido como parte do curso *Introdução à Linguagem Java* (Senac Lapa Tito) e representa uma das minhas primeiras aplicações práticas com orientação a objetos.
+Este projeto foi desenvolvido como parte do curso *Introdução à Linguagem Java* (Senac Lapa Tito) e representa uma das minhas __primeiras aplicações práticas com orientação a objetos__.
 
 A proposta era criar um sistema simples, executado via terminal, que organizasse tarefas divididas por categorias: pessoal, estudo e trabalho. Ao longo do desenvolvimento, pude reforçar meu entendimento sobre herança, polimorfismo, classes abstratas e entrada de dados com `Scanner`.
 
@@ -9,9 +9,9 @@ A proposta era criar um sistema simples, executado via terminal, que organizasse
 ## ⚙️ Funcionalidades
 
 - 📝 Cadastro de tarefas por categoria:
-  - Tarefas pessoais
-  - Tarefas de estudo
-  - Tarefas de trabalho
+  - __Tarefas pessoais__
+  - __Tarefas de estudo__
+  - __Tarefas de trabalho__
 - ✅ Marcação de tarefas como concluídas
 - 🔍 Visualização de todas as tarefas cadastradas
 - ⌛ Verificação de tarefas em atraso (com base na deadline)
@@ -81,7 +81,7 @@ Escolha uma opção:
 
 --- 
 
-## ℹ️ Observações
+## ℹ️ *Observações*
 - O sistema roda totalmente no console.
 
 - As tarefas são armazenadas apenas em memória (não há persistência de dados).
